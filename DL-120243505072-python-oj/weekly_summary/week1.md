@@ -16,6 +16,7 @@
 逻辑运算符：and or not
 
 运算符优先级：
+
 or<and<not  
 逻辑<比较<数值
 
@@ -33,13 +34,17 @@ or<and<not
 4.查:count(),index(),index(x,start,end)
 
 4.加法：拼接 
+
   乘法：重复列表中的元素
+  
 三、嵌套列表
+
 利用for访问嵌套列表
 
 利用循环创建二维列表
 
 四、深拷贝与浅拷贝
+
 浅拷贝只拷贝外层的对象，若包含嵌套拷贝的只能是其引用,即不适用二维以上列表
 
 深拷贝：copy.deepcopy()
@@ -47,7 +52,9 @@ or<and<not
 浅拷贝:copy.copy()
 
 五、列表推导式
+
 结构：
+
 1.expression for target in iterable
 
 2.expression for target in iterable if condition
