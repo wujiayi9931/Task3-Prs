@@ -60,7 +60,7 @@ and or not
 ## 三、流程控制
 
 ### 1. 分支结构
-
+```python
 # 单分支
 if condition:
     statements
