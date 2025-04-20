@@ -3,10 +3,10 @@
 ## 一、Python基础语法
 
 ### 1. 基本数据类型
-- 字符串(str)
-- 整数(int) 
-- 浮点数(float)
-- 布尔值(bool)
+字符串(str)
+整数(int) 
+浮点数(float)
+布尔值(bool)
 
 ### 2. 运算符
 **算术运算符**  
@@ -29,28 +29,28 @@ and or not
 左闭右开区间
 
 **常用方法**  
-- 增：append(), extend(), insert()  
-- 删：remove(), pop(), clear()  
-- 改：sort(), reverse()  
-- 查：count(), index(), index(x,start,end)  
+增：append(), extend(), insert()  
+删：remove(), pop(), clear()  
+改：sort(), reverse()  
+查：count(), index(), index(x,start,end)  
 
 **特殊操作**  
-- 加法：列表拼接  
-- 乘法：重复列表元素  
+加法：列表拼接  
+乘法：重复列表元素  
 
 ### 2. 嵌套列表
-- 使用for循环访问嵌套列表
-- 使用循环创建二维列表
+使用for循环访问嵌套列表
+使用循环创建二维列表
 
 ### 3. 拷贝机制
 **浅拷贝**  
-- 只拷贝外层对象
-- 嵌套部分拷贝引用
-- 方法：copy.copy()
+只拷贝外层对象
+套部分拷贝引用
+方法：copy.copy()
 
 **深拷贝**  
-- 完全独立拷贝所有层级
-- 方法：copy.deepcopy()
+完全独立拷贝所有层级
+方法：copy.deepcopy()
 
 ### 4. 列表推导式
 **基本结构**  
@@ -60,7 +60,7 @@ and or not
 ## 三、流程控制
 
 ### 1. 分支结构
-```python
+
 # 单分支
 if condition:
     statements
