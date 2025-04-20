@@ -1,7 +1,6 @@
 Python 学习总结
 
 一、Python基础语法
-
 1. 基本数据类型
 字符串(str)
 整数(int) 
@@ -60,7 +59,6 @@ and or not
 
 三、流程控制
 
-```python
 1. 分支结构
 
 单分支
@@ -95,7 +93,7 @@ range()——生成一个数字序列，左开右闭
 用法：range(stop)   range(start,stop)   range(start,stop,step) 
 
 无论哪种用法参数必须是整数
-```
+
 四、模块
 模块的导入：import 模块名
 
