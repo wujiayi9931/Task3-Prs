@@ -13,16 +13,22 @@
 比较运算符：== != > < >= <=
 逻辑运算符：and or not
 运算符优先级：or<and<not
+
              逻辑<比较<数值
 
 ## 二、结构
 ### 一、列表：切片--左闭右开
 ### 二、方法：
 1.增:append(),extend(),insert()
+
 2.删:remove(),pop(),clear()
+
 3.改:sort(),reverse()
+
 4.查:count(),index(),index(x,start,end)
-4.加法：拼接  
+
+4.加法：拼接 
+
   乘法：重复列表中的元素
 ### 三、嵌套列表
 利用for访问嵌套列表
@@ -43,7 +49,7 @@
            for targetN in iterable if conditionN
 
 ## 三、分支和循环
-分支结构：
+### 分支结构：
 1.if condition:
   else:
 
@@ -51,7 +57,7 @@
   elif condtion:
   else:
 
-循环
+### 循环
 continue:只跳出本轮循环
 break：跳出整个循环
 
@@ -67,6 +73,7 @@ range()——生成一个数字序列，左开右闭
 
 ## 四、模块
 模块的导入：import 模块名
+
 使用：x.模块名
 
 
