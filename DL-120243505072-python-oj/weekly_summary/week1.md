@@ -2,75 +2,78 @@
 
 ## 一、Python基础语法
 
-### 1.基本数据类型
-字符串(str)
-整数(int)
-浮点数(float)
-布尔值(bool)
+### 1. 基本数据类型
+- 字符串(str)
+- 整数(int) 
+- 浮点数(float)
+- 布尔值(bool)
 
-### 2.运算符
-算术运算符：+ - * / // % **
+### 2. 运算符
+**算术运算符**  
++ - * / // % **
 
-比较运算符：== != > < >= <=
+**比较运算符**  
+== != > < >= <=
 
-逻辑运算符：and or not
+**逻辑运算符**  
+and or not
 
-运算符优先级：
-or<and<not  
-逻辑<比较<数值
+**运算符优先级**  
+1. or < and < not  
+2. 逻辑运算 < 比较运算 < 数值运算
 
-## 二、结构
-一、列表：切片--左闭右开
+## 二、数据结构
 
-二、方法：
+### 1. 列表(List)
+**切片规则**  
+左闭右开区间
 
-1.增:append(),extend(),insert()
+**常用方法**  
+- 增：append(), extend(), insert()  
+- 删：remove(), pop(), clear()  
+- 改：sort(), reverse()  
+- 查：count(), index(), index(x,start,end)  
 
-2.删:remove(),pop(),clear()
+**特殊操作**  
+- 加法：列表拼接  
+- 乘法：重复列表元素  
 
-3.改:sort(),reverse()
+### 2. 嵌套列表
+- 使用for循环访问嵌套列表
+- 使用循环创建二维列表
 
-4.查:count(),index(),index(x,start,end)
+### 3. 拷贝机制
+**浅拷贝**  
+- 只拷贝外层对象
+- 嵌套部分拷贝引用
+- 方法：copy.copy()
 
-4.加法：拼接 
+**深拷贝**  
+- 完全独立拷贝所有层级
+- 方法：copy.deepcopy()
 
-  乘法：重复列表中的元素
-  
-三、嵌套列表
+### 4. 列表推导式
+**基本结构**  
+1. [expression for target in iterable]  
+2. [expression for target in iterable if condition]
 
-利用for访问嵌套列表
+## 三、流程控制
 
-利用循环创建二维列表
+### 1. 分支结构
+```python
+# 单分支
+if condition:
+    statements
 
-四、深拷贝与浅拷贝
+# 多分支 
+if condition1:
+    statements1
+elif condition2:
+    statements2
+else:
+    statements3
 
-浅拷贝只拷贝外层的对象，若包含嵌套拷贝的只能是其引用,即不适用二维以上列表
-
-深拷贝：copy.deepcopy()
-
-浅拷贝:copy.copy()
-
-五、列表推导式
-
-结构：
-
-1.expression for target in iterable
-
-2.expression for target in iterable if condition
-
-## 三、分支和循环
-### 分支结构：
-1.if condition:
-
-  else:
-
-2.if condition:
-
-  elif condtion:
-  
-  else:
-
-### 循环
+### 2. 循环
 continue:只跳出本轮循环
 
 break：跳出整个循环
