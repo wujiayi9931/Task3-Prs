@@ -58,7 +58,8 @@ or<and<not
 
 2.expression for target in iterable if condition
 
-3.expression for target1 in iterable if condition1
+3.
+expression   for target1 in iterable if condition1
 
              for target2 in iterable if condition2
            
@@ -96,7 +97,9 @@ for i in 范围：
 range()——生成一个数字序列，左开右闭
 
 用法：range(stop)  
-     range(start,stop) 
+
+     range(start,stop)
+     
      range(start,stop,step) 
 
 无论哪种用法参数必须是整数
