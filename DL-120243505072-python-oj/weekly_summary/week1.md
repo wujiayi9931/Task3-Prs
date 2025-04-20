@@ -60,11 +60,11 @@ or<and<not
 
 3.expression for target1 in iterable if condition1
 
-           for target2 in iterable if condition2
+             for target2 in iterable if condition2
            
-           ...
+             ...
            
-           for targetN in iterable if conditionN
+             for targetN in iterable if conditionN
 
 ## 三、分支和循环
 ### 分支结构：
@@ -95,7 +95,9 @@ for i in 范围：
 
 range()——生成一个数字序列，左开右闭
 
-用法：range(stop)  range(start,stop)  range(start,stop,step) 
+用法：range(stop)  
+     range(start,stop) 
+     range(start,stop,step) 
 
 无论哪种用法参数必须是整数
 
