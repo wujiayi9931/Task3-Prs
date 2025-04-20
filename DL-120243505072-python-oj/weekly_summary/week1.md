@@ -57,10 +57,16 @@ and or not
 1. [expression for target in iterable]  
 2. [expression for target in iterable if condition]
 
+## 四、模块
+模块的导入：import 模块名
+
+使用：x.模块名
+
 ## 三、流程控制
 
-### 1. 分支结构
 ```python
+### 1. 分支结构
+
 # 单分支
 if condition:
     statements
@@ -94,10 +100,6 @@ range()——生成一个数字序列，左开右闭
 
 无论哪种用法参数必须是整数
 
-## 四、模块
-模块的导入：import 模块名
-
-使用：x.模块名
 
 
 
